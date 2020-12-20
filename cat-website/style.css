@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: #e5ff00;
 }
 a{
     color: #bbff00;
@@ -17,6 +18,9 @@ ul{
     list-style: none;
 }
 
+
+/* Menu */
+
 header nav ul{
     display: flex;
     justify-content: space-evenly;
@@ -31,3 +35,27 @@ header nav li{
 header nav {
     position: sticky;
 }
+
+/* End Menu */
+
+/* Presentation */
+
+#presentation
+{
+    position: relative;
+}
+#presentation img{
+    width: 100%;
+    height: auto;
+}
+#presentation .titles, #presentation img{
+    position: absolute;
+}
+#presentation .titles{
+    font-size: 4.5rem;
+    width: 100%;
+    background: #30007c85;
+    top: 30vh;
+}
+
+/* End presentation */
