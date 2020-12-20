@@ -59,3 +59,38 @@ header nav {
 }
 
 /* End presentation */
+
+/* Love Cats */
+
+#cats .areas-2{
+    display: flex;
+}
+#cats .areas-2 .area{
+    flex-basis: 50%;
+}
+#cats .areas-2 .area img{
+    width: 100%;
+    height: auto;
+}
+#cats .areas-2 .area:first-child{
+    background: #30007c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cats .areas-2 .area h3, #cats .areas-2 .area p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#cats .areas-2 .area h3{
+    font-size: 2.2rem;
+}
+#cats .areas-2 .area p{
+    font-size: 1.25rem;
+    vertical-align: middle;
+}
+
+/* End love cats */
