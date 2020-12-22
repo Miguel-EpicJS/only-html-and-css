@@ -85,3 +85,39 @@ li.select > .menu-link {
 .split h1{
     font-size: 2rem;
 }
+
+/* Prices */
+
+.card{
+    background: #e4e4e4;
+    margin: 100px;
+}
+
+.card .splits .split{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-price{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.btn-price{
+    color: #000000;
+    padding: 10px 35px;
+    border: 1px solid #000000;
+    transition: .5s;
+}
+.btn-price:hover{
+    color: #ffffff;
+    border: #1a4057;
+    background: #1a4057;
+}
+.price *{
+    margin: 50px 0;
+}
+.price p{
+    font-size: 2.5rem;
+    margin-right: 0;
+}
