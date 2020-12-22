@@ -3,3 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.menu-link{
+    color: #000000;
+    transition: .5s;
+}
+.menu-link:hover{
+    color: #616161;
+}
+li.select > .menu-link {
+    color: #616161 !important;
+}
