@@ -21,3 +21,17 @@ a{
 li.select > .menu-link {
     color: #616161 !important;
 }
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 30px;
+}
+.nav-menu > *{
+    flex-basis: 50%;
+}
+.ul-menu{
+    display: flex;
+    justify-content: space-around;
+}
