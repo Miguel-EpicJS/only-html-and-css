@@ -121,3 +121,30 @@ li.select > .menu-link {
     font-size: 2.5rem;
     margin-right: 0;
 }
+
+/* Contact */
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea{
+    margin: 10px 0;
+}
+form .btn-contact{
+    color: #000000;
+    padding: 10px 35px;
+    border: 1px solid #000000;
+    transition: .5s;
+    margin: auto;
+}
+form .btn-contact:hover{
+    color: #ffffff;
+    border: #1a4057;
+    background: #1a4057;
+}
+
+.container .splits .split img{
+    width: 100%;
+    height: 100%;
+}
