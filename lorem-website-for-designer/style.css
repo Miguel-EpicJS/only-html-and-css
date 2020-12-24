@@ -82,3 +82,40 @@ footer{
     margin: 50px auto;
     font-size: 1.1rem;
 }
+
+/* Contact */
+
+.contact{
+    width: 70%;
+    margin: auto;
+}
+
+.contact .split p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.contact .split{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form *{
+    margin: 5px;
+    padding: .5rem;
+}
+
+.btn-submit{
+    background: #2a2a2a;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all .5s;
+}
+.btn-submit:hover{
+    background: #414141;
+}
