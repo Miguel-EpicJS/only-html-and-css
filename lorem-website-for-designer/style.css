@@ -17,6 +17,33 @@ header h1{
     margin: auto;
 }
 
+ul{
+    list-style: none;
+}
+
+/* MENU */
+
+footer{
+    width: 60%;
+    margin: 20px auto;
+}
+.nav-menu{
+    background: #2e2c2c;
+    padding: 1rem;
+}
+.nav-menu .ul-menu{
+    display: flex;
+    justify-content: space-around;
+}
+.link-menu{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    transition: all .5s;
+}
+.link-menu:hover, .select *{
+    color: #fff12a;
+}
 
 /* INDEX/PORTIFOLIO */
 
