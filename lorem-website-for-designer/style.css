@@ -60,3 +60,25 @@ footer{
     margin: .5%;
     height: auto;
 }
+
+/* ABOUT */
+
+.splits{
+    display: flex;
+}
+.split{
+    flex-basis: 45%;
+    margin: 2.5%;
+}
+.split img{
+    width: 100%;
+    height: auto;
+}
+.split h2{
+    font-size: 2rem;
+    text-align: center;
+}
+.split p{
+    margin: 50px auto;
+    font-size: 1.1rem;
+}
